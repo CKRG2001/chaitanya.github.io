@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assests/new.png"/>
+    <title>Chaitanya | Data Analyst</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Chaitanya Goukanapalli</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Chaitanya Goukanapalli</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="/assests/new.png" alt="profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Chaitanya Goukanapalli</h1>
+        <p class="section__text__p2">A Data Analyst</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('/assests/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="assests/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/chaitanya-kumar-reddy-goukanapalli-2726951ba/'"
+          />
+          <img
+            src="assests/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/CKRG2001/'"
+          />
+          <img
+          src="assests/tableau-icon-512x505-xj7ykul5.png"
+          alt="My Tableau profile"
+          class="icon"
+          onclick="location.href='https://public.tableau.com/app/profile/chaitanya.goukanapalli/vizzes'"
+        />
+        </div>
+      </div>
+            
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="/assests/me-transformed.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="/assests/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Shiash Info Tech<br/>Data Analyst Intern<br/>Jan 2022-May 2022</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="/assests/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Computer Science Bachelors Degree<br/>(2018-2022)</p><p><br/>Computer Science Masters Degree<br/>(2022-2024)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                Welcome to my corner of the web! I'm Chaitanya, 
+                a data analyst with a passion for transforming raw data 
+                into meaningful insights and compelling stories. 
+                I thrive on the intersection of technology and creativity, 
+                using tools like Power BI, Python, SQL, and Tableau to 
+                unlock the potential hidden in datasets. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Manipulation and Analytics</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pandas</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Numpy</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Visualization and Machine Learning</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power-BI</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Matplotlib</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Scikit-Learn</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TensorFlow</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Keras</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects and Dashboards</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/assests/doordash_placeholder.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Delivery Duration Prediction</h2>
+            <p>Deployed a predictive model for DoorDash delivery durations using machine learning , featuring advanced feature engineering to address data intricacies like redundancies and collinearities. </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/CKRG2001/DoorDashPrediction'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/assests/TRH.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Analysing Trends on Twitter, Reddit and HackerNews</h2>
+            <p>Utilizing data crawlers, performing data cleaning and creating compelling dashboard that highlight sentimental analysis and most common topics discussed across these platforms.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/2022-Fall-CS-415-515'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/assests/covid.jpeg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">COVID-19 Exploratory Data Analysis Using SQL</h2>
+            <p>Performed exploratory data analysis on COVID-19 worldwide data using SQL. Utilized daily data on confirmed, dead and recovered cases from February 2020 to February 2022 accross the world.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/CKRG2001/COVID19ExploratoryDataAnalysisSQL'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://public.tableau.com/views/CovidDashboard_17001714287660/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link'"
+              >
+                Tableau
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/assests/stocks.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Interactive Stock Market Dashboard Using Pandas and Tableau</h2>
+            <p>Performed feature engineering using pandas to create new columns that are used to create an interactive dashboard</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/CKRG2001/Stocks'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://public.tableau.com/views/Stocks_17002452903750/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link'"
+              >
+                Tableau
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/assests/netflix.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Interactive Netflix Dashboard Using Tableau</h2>
+            <p>Created a dashboard using tableau which represents Total Movies and TV-Shows by country, raitings, Top 10 Genre </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://public.tableau.com/views/NetflixMoviesandTVShows_17001930665590/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link'"
+              >
+                Tableau
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="/assests/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:chaitanya3168@gmail.com">chaitanya3168@gmail.com</a></p>
+        </div>
+
+        <div class="contact-info-container">
+            <img
+              src="/assests/user60.png"
+              alt="Call icon"
+              class="icon contact-icon"
+            />
+            <p><a href="tel:+1234567890">+1 (607) 595-8133</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img
+              src="/assests/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
